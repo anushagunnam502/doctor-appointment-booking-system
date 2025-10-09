@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Server ignores
+server/node_modules/
+server/.env
+server/.env.*
+server/logs/
+server/*.log
+
